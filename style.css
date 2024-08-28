@@ -156,3 +156,29 @@ swiper-slide img {
     height: 100px;
     object-fit: contain;
 }
+
+/* ----Block-Cart---- */
+.container-box{
+    display: flex;
+    gap: 20px;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 240px;
+}
+.block-top-tetx{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.block-top-tetx img{
+    width: 50px;
+    object-fit: contain;
+}
+.img-block img{
+    width: 100%;
+    object-fit: cover;
+}
