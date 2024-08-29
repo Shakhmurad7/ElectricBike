@@ -157,17 +157,34 @@ swiper-slide img {
     object-fit: contain;
 }
 
+.swiper-slides{
+    background: none;
+    text-align: start;
+}
+
 /* ----Block-Cart---- */
+.container-block{
+    padding: 80px 0px;
+    background-color: 
+    #F8F8F8;
+}
+.container-block h2{
+    font-size: 2.2rem;
+    padding-bottom: 40px;
+}
 .container-box{
+    padding: 0px 30px;
     display: flex;
     gap: 20px;
 }
 .block{
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 15px;
     width: 100%;
-    max-width: 240px;
 }
 .block-top-tetx{
     align-items: center;
@@ -175,10 +192,15 @@ swiper-slide img {
     justify-content: space-between;
 }
 .block-top-tetx img{
-    width: 50px;
+    border-top-left-radius: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    height: fit-content;
+    width: 70px;
     object-fit: contain;
 }
 .img-block img{
+    height: auto;
     width: 100%;
     object-fit: cover;
 }
