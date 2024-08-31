@@ -232,9 +232,12 @@ swiper-slide img {
 
 
 /* ---section---- */
+.section-container{
+    padding: 70px 0px;
+}
 .sectino-text-top{
     font-size: 3rem;
-    padding: 50px 0px;
+    padding-bottom: 50px;
 }
 .sectin-cart-top:hover{
     transition: .4s;    
@@ -242,7 +245,7 @@ swiper-slide img {
 }
 .sectin-cart-top{
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
     transition: .4s;
     position: relative;
     height: 328px;
@@ -255,6 +258,8 @@ swiper-slide img {
     top: 45%;
 }
 .sectin-cart-top img{
+    width: 100%;
+    max-width: 800px;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -263,16 +268,13 @@ swiper-slide img {
 .sectin-cart-top h2{
     color: white;
 }
-.section-cart-block{
-
-}
 .section-cart-block h2 {
     color: white;
 }
 .sectin-cart-bottom{
     display: flex;
     gap: 10px;
-    height: 400px;
+    height: 350px;
 }
 .section{
     display: flex;
@@ -280,29 +282,83 @@ swiper-slide img {
     gap: 10px;
 }
 .section-cart-block.column{
-    width: 100%;
+    width: 510px;
     display: flex;
     gap: 10px;
     flex-direction: column;
 }
+.section-cart-block-bottom ,.section-cart-block-bottom.active{
+    position: relative;
+}
+.section-cart-block-bottom.active h2{
+    position: absolute;
+    bottom: 10px !important;
+    font-size: 2.5rem;
+    top: auto;
+    left: 30px !important;
+}
+.section-cart-block-bottom h2{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 2.5rem;
+}
+.section-cart-block-bottom.active img{
+    top: 0 ;
+    right: 0;
+    position: absolute ;
+}
+.section-cart-block-bottom img{
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    object-fit: cover;  
+    width: 60%;
+}
+.section-cart-block-top h2{
+    position: absolute;
+    top: 50px;
+    font-size: 2.5rem;
+    left: 30px;
+}
 .section-cart-block-top img{
     object-fit: cover;
     height: 150px;
-}
-.section-cart-block-bottom img{
-    object-fit: cover;
-    height: 150px;   
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 .section-cart-block-top{
+    border-radius: 10px;
+    position: relative;
     width: 100%;
-    height: 200px;
-    background-color: black;
+    height: 270px;
+    background-color: 
+    #101010;
+}
+.section-cart-block.first h2{
+    position:absolute;
+    top: 50px;
+    right: 30%;
+    font-size: 2.5rem;
+}
+.section-cart-block.first img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70%;
 }
 .section-cart-block.first{
-    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    width: 510px;
+    background-color:
+    #101010;
 }
 .section-cart-block-bottom{
+    border-radius: 10px;
     width: 100%;
     height: 100%;
-    background-color: black;
+    background-color: 
+    #101010;
 }
