@@ -46,4 +46,3 @@ Object.assign(swiperEls, {
     },
   },
 });
-swiperEls.initialize();
