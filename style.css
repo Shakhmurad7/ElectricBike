@@ -229,3 +229,80 @@ swiper-slide img {
 .price{
     color: #777777;
 }
+
+
+/* ---section---- */
+.sectino-text-top{
+    font-size: 3rem;
+    padding: 50px 0px;
+}
+.sectin-cart-top:hover{
+    transition: .4s;    
+    background-color: #fd6500b7;
+}
+.sectin-cart-top{
+    cursor: pointer;
+    border-radius: 20px;
+    transition: .4s;
+    position: relative;
+    height: 328px;
+    background-color: #F57520;
+}
+.sectin-cart-top h2{
+    font-size: 3rem;
+    position: absolute;
+    left: 100px;
+    top: 45%;
+}
+.sectin-cart-top img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.sectin-cart-top h2{
+    color: white;
+}
+.section-cart-block{
+
+}
+.section-cart-block h2 {
+    color: white;
+}
+.sectin-cart-bottom{
+    display: flex;
+    gap: 10px;
+    height: 400px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.section-cart-block.column{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.section-cart-block-top img{
+    object-fit: cover;
+    height: 150px;
+}
+.section-cart-block-bottom img{
+    object-fit: cover;
+    height: 150px;   
+}
+.section-cart-block-top{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+}
+.section-cart-block.first{
+    background-color: black;
+}
+.section-cart-block-bottom{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
