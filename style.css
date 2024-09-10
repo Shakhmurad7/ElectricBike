@@ -397,7 +397,7 @@ swiper-slide img {
 
 /* ----video---- */
 .container-video{
-    padding: 80px 0px;
+    padding-top: 80px;
 }
 .container-bottom-video-text{
     margin-top: -4px;
@@ -419,4 +419,70 @@ swiper-slide img {
     display: flex;
     gap: 10px;
     align-items: center;
+}
+
+
+
+/* -----section-bike----- */
+.section-bike{
+    background:#101010;
+    position: relative;
+}
+.section-img-left img{
+    object-fit: contain;
+    height: 400px;
+}
+.section-img-left::after{
+    content: "";
+    inset: 0;
+    background-color: #101010d1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+
+}
+.section-img-left{
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
+.section-img-right::after{
+    content: "";
+    inset: 0;
+    background-color: #101010d1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.section-img-right{
+    position: absolute;
+    right: 0;
+}
+.section-img-right img{
+    object-fit: contain;
+    height: 400px;
+}
+.section-bike-container{
+    margin-right: -10px;
+    justify-content: end;
+    width: 100%;
+    position: relative;
+    z-index: 3;
+    padding: 50px 0px;
+    display: flex;
+    gap: 30px;
+}
+.section-bike-container h2{
+    width: 320px;
+    font-size: 2.5rem;
+    color: white;
+}
+.section-bike-block{
+    gap: 40px;
+    margin-top: 100px;
+    margin-right: -5px;
+    margin-left: -100px;
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
 }
