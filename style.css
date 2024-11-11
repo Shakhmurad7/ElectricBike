@@ -22,6 +22,11 @@ li{
     width: fit-content;
     cursor: pointer;
 }
+.big-container{
+    max-width: 2200px;
+    width: 100%;
+    margin: 0 auto;
+}
 .container{
     padding: 0px 150px;
 }
@@ -277,6 +282,8 @@ swiper-slide img {
     height: 350px;
 }
 .section{
+    width:100% ;
+    max-width: 1550px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -507,6 +514,12 @@ swiper-slide img {
     gap: 20px;
     flex-direction: column;
 }
+.block-box-row img{
+    object-fit: contain;
+    width: 60px;
+    height:60px;
+
+}
 .block-box-row h2{
     font-size: 18px;
 }
@@ -545,4 +558,18 @@ swiper-slide img {
     border-radius: 10px;
     border: none;
     cursor: pointer;
+}
+
+
+/* advantage block */
+.container-advantage{
+    display: flex;
+
+}
+.container-advantage img{
+    height: 400px;
+}
+.h1-advantage{
+    padding: 30px 0px;
+    font-size: 2.5rem;
 }
