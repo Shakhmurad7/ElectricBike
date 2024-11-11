@@ -598,3 +598,6 @@ swiper-slide img {
 .p-advantage{
     color: rgba(255, 255, 255, 0.599);
 }
+.helmet-box{
+    display: flex;
+}
