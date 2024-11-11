@@ -563,13 +563,38 @@ swiper-slide img {
 
 /* advantage block */
 .container-advantage{
+    justify-content: space-between;
+    gap: 40px;
     display: flex;
 
 }
 .container-advantage img{
-    height: 400px;
+    height: 465px;
 }
 .h1-advantage{
     padding: 30px 0px;
     font-size: 2.5rem;
+}
+.block-advabtage-row{
+    display: flex;
+    gap: 20px;
+}
+.container-block-row-advantage{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.block-advantage{
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    background-color: #F57520;
+    color: white;
+}
+.p-advantage{
+    color: rgba(255, 255, 255, 0.599);
 }
