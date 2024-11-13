@@ -735,12 +735,19 @@ swiper-slide img {
     justify-content: space-between;
     color: white;
 }
+.footer-block ul li{
+    cursor: pointer;
+}
+.footer-block ul li:hover{
+    color: #F57520;
+}
 .footer-block ul{
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 .footer-box-block {
+    align-items: center;
     display: flex;
     gap: 10px;
 }
@@ -753,6 +760,7 @@ swiper-slide img {
     gap: 10px;
 }
 .footer-box-block img{
+    padding-bottom: 0px !important;
     width: 30px !important;
     height: 30px !important;
 }
@@ -769,4 +777,11 @@ swiper-slide img {
 }
 .footer-block p{
     color: rgba(255, 255, 255, 0.579);
+}
+.footer-bottom{
+    display: flex;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.296);
+    border-top: 1px solid;
+    padding: 10px 0px;
 }
