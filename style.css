@@ -683,8 +683,6 @@ swiper-slide img {
     color: white;
 }
 .messages-left h2{
-    position: relative;
-    z-index: 10;
     padding-bottom: 20px;
     font-size: 2.5rem;
 }
@@ -697,6 +695,7 @@ swiper-slide img {
 }
 .massages-container-box{
     display: flex;
+    justify-content: space-between;
 }
 .messages-input input{
     padding: 10px ;
@@ -713,14 +712,61 @@ swiper-slide img {
     cursor: pointer;
 }
 .messages-right img{
-    right: 150px;
-    position: absolute;
     object-fit: cover;
     height: 220px;
+    max-width: 600px;
+    width: 100%;
 }
 .inpur-checkbox{
     padding-top: 10px;
 }
 .inpur-checkbox input{
     cursor: pointer;
+}
+/* ---footer---- */
+.footer{
+    font-size: 14px;
+    background-color: #101010;
+}
+.footer-container{
+    gap: 50px;
+    padding: 80px 0px ;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.footer-block ul{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.footer-box-block {
+    display: flex;
+    gap: 10px;
+}
+.footer-block h2{
+    font-size: 1.5rem;
+}
+.footer-box-row{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-box-block img{
+    width: 30px !important;
+    height: 30px !important;
+}
+.footer-block img{
+    padding-bottom: 30px;
+    width: 100px;
+}
+.footer-block{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    max-width: 300px;
+}
+.footer-block p{
+    color: rgba(255, 255, 255, 0.579);
 }
