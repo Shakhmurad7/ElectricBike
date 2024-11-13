@@ -671,3 +671,56 @@ swiper-slide img {
     justify-content: space-between;
     gap: 40px;
 }
+
+
+/* ----messages---- */
+.messages-container{
+    height: 220px;
+    background-color: #131313;
+}
+.messages-left{
+    padding: 20px 0px;
+    color: white;
+}
+.messages-left h2{
+    position: relative;
+    z-index: 10;
+    padding-bottom: 20px;
+    font-size: 2.5rem;
+}
+.messages-input , .inpur-checkbox{
+    display: flex;
+    gap: 10px;
+}
+.inpur-checkbox{
+    align-items: center;
+}
+.massages-container-box{
+    display: flex;
+}
+.messages-input input{
+    padding: 10px ;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+.messages-input button{
+    border-radius: 10px;
+    padding: 0px 40px;
+    background-color: #F57520;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.messages-right img{
+    right: 150px;
+    position: absolute;
+    object-fit: cover;
+    height: 220px;
+}
+.inpur-checkbox{
+    padding-top: 10px;
+}
+.inpur-checkbox input{
+    cursor: pointer;
+}
